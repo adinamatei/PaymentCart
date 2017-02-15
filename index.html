@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css" charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+	<title>Payment</title>
+</head>
+<body>
+	<div class="bgContainer"></div>
+	<div class="container">
+		<div class="content">
+			
+			<!-- Row 1 -->
+			<div class="photo"><img src="img/JessePinkman.png"></div>
+			<div class="headerText">
+				<h5>Jesse Pinkman</h5>
+				<p>Some other descriptive text. Address or Email?</p>
+			</div>
+
+			<!-- Row 2 -->
+			<div  id="btn1" class=" btn btn1 txtStyle borderTop selected">
+				<a href="#">Payment details</a>
+				
+			</div>
+			<div id="btn2" class="btn btn2 txtStyle borderTop borderLeft">
+				<a href="#">Billing info</a>
+			</div>
+
+			<!-- Row 3 -->
+			<div class="firstName borderTop ">
+				<input class="txtStyle inputStyle" type="text" name="firstname" placeholder="First name">
+			</div>
+			<div class="sex borderTop borderLeft">
+				<select class="txtStyle inputStyle" name="sex">
+					<option value="m">M</option>
+					<option value="f">F</option>
+				</select>
+			</div>
+			<div class="lastName borderTop borderLeft">
+				<input class="txtStyle inputStyle" type="text" name="lastname" placeholder="Last name">
+			</div>
+
+			<!-- Row 4 -->
+			<div class="email borderTop">
+				<input class="txtStyle inputStyle" type="text" name="email" placeholder="Your email address">
+			</div>
+
+			<!-- Row 5 -->
+			<div class="payment borderTop">
+				<input class="txtStyle inputStyle" type="text" name="details" placeholder="What is this payment for?">
+			</div>
+
+			<!-- Row 6-8 -->
+			<div class="dollar borderTop">
+				<p id="change">&#36;50.00<p>
+			</div>
+			<div class="dlrBox borderTop borderLeft">
+				<div class="box box1"><a href="#">&#36;1</a></div>
+				<div class="box box2 borderLeft"><a href="#">&#36;5</a></div>
+				<div class="box box3 borderLeft" borderTop><a href="#">&#36;10</a></div>
+				<div class="box box4 borderTop"><a href="#">&#36;20</a></div>
+				<div class="box box5 borderTop borderLeft active"><a href="#">&#36;50</a></div>
+				<div class="box box6 borderTop borderLeft"><a href="#">&#36;100</a></div>
+				<div class="box box7 borderTop"><a href="#">&#36;500</a></div>
+				<div class="box box8 borderTop borderLeft"><a href="#">&#36;1000</a></div>
+				<div class="box box9 borderTop borderLeft" id="putAmount"><a href="#">...</a></div>
+				
+			</div>
+
+			<!-- Row 9 -->
+			<div class="remember borderTop">
+				<label>
+					<input type="checkbox" name="remember">Remember me?
+					<i class="fa fa-info-circle" aria-hidden="true"></i>
+				</label>
+			</div>
+			<div class="payButton borderTop txtStyle">
+				<button id="payBtn">Pay now</button>
+			</div>
+
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/grid.js"></script>
+	
+</body>
+</html>
