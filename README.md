@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Payment Cart Layout
 
 The CSS Grid Layout is a system that offer a new way to design grid-based user interfaces. Even if is't not widly suported yet by browsers, I decided to give it a try and see how { display: grid } works.
