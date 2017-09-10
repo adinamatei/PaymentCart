@@ -10,4 +10,6 @@ The best bet to experiment with Grid, is to use the browser with special flags e
 * for Opera [opera://flags](opera://flags/) and enable "experimental web platform features"
 * to check for other browsers support and more details visit [Caniuse](http://caniuse.com/#feat=css-grid)
 
-And also, I've added some JavaScript.
+Source [here](https://drive.google.com/file/d/0B6Da5-0kA6QbQUZ3MkMybGw4WXc/view?usp=sharing)
+
+Clone this repository and open `index.html` in your browser.
