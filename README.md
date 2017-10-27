@@ -12,4 +12,4 @@ The best way to experiment with Grid, is to use the browser with special flags e
 
 Source [here](https://drive.google.com/file/d/0B6Da5-0kA6QbQUZ3MkMybGw4WXc/view?usp=sharing)
 
-Clone this repository and open `index.html` in your browser.
+[https://adinamatei.github.io/PaymentCart/](https://adinamatei.github.io/PaymentCart/)
